@@ -1,0 +1,53 @@
+body{
+    background-color: bisque;
+    font-family: sans-serif;
+}
+/*
+agregarle estilo al header que hicimos
+*/
+header{
+    margin-bottom: 1%;
+    background-image: url("../img/granos-cafes.jpg");
+    background-size: cover;
+    background-position: center;
+    font-size: 2em;
+    padding:2%;
+    color:whitesmoke;
+}
+/*
+listado de productos dandole estilo a la tabla completa
+*/
+.products{
+    width: 25%;
+    margin: auto;
+    font-family: 'Helvetica';
+    font-size: 1em;
+}
+/*
+estilo del listado de producto, en especifico cada uno de los elementos de la tabla
+*/
+.products td{
+    width:30%;
+    margin:0%;
+    padding: 1em;
+    width: auto;
+    background-color: rgba(255,255,255,.5);
+}
+/*
+el width en products img al final es el 25% del 30% y que se utilice el 100% de la imagen
+*/
+.products img{
+    width: 100%;
+}
+/*
+darle estilo al footer
+*/
+footer{
+    margin-top:1%;
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    text-align: center;
+    font-weight: 900;
+    }
+    
